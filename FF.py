@@ -91,12 +91,12 @@ def start():
             canvas.coords(crossimg,self.x,crossy)
                 
         
-    playersprite = PhotoImage(file="Cannon.gif")
-    missilesprite = PhotoImage(file="Fetus.gif")
+    playersprite = PhotoImage(file="Canon.gif")
+    missilesprite = PhotoImage(file="rockets.gif")
     enemysprite = PhotoImage(file="Freddy.gif")
     
-    boss_sprite = PhotoImage(file="Boss.gif")
-    cross_sprite = PhotoImage(file="Cross.gif")
+    boss_sprite = PhotoImage(file="Cboss.gif")
+    cross_sprite = PhotoImage(file="projectile.gif")
 
 
     playercoords = Player(y=250)
